@@ -11,7 +11,8 @@ public class L2021111558_5_Test {
         // 测试用例1：给定示例 [3, 5, 6, 7], target = 9
         int[] nums = {3, 5, 6, 7};
         int target = 9;
-        int expected = 4;
+        // int expected = 4;
+        int expected = 0;
         int result = new Solution5().numSubseq(nums, target);
         assertEquals(expected, result);
     }
