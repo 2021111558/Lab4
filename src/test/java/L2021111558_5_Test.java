@@ -1,6 +1,7 @@
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class L2021111558_5_Test {
     // 总体测试用例设计原则：等价类划分
@@ -11,8 +12,7 @@ public class L2021111558_5_Test {
         // 测试用例1：给定示例 [3, 5, 6, 7], target = 9
         int[] nums = {3, 5, 6, 7};
         int target = 9;
-        // int expected = 4;
-        int expected = 0;
+        int expected = 4;
         int result = new Solution5().numSubseq(nums, target);
         assertEquals(expected, result);
     }
