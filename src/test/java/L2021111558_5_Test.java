@@ -1,7 +1,5 @@
-import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
 
 public class L2021111558_5_Test {
     // 总体测试用例设计原则：等价类划分
